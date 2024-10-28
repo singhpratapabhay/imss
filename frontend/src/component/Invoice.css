@@ -1,0 +1,174 @@
+/* Invoice.css */
+.download-invoice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 230px; */
+    padding: 5px 40px;
+  }
+  .download-invoice svg{
+    font-size: 30px;
+    color: #126262;
+  }
+  .closing{
+    color: red !important;
+    font-weight: 600;
+  }
+  .invoice-container{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    z-index: 1000;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    align-items: center;
+    justify-content: center;
+  }
+  .invoice {
+     width: 1280px;
+     /* height: 100%; */
+      margin: 0 auto;
+      /* overflow-y: scroll; */
+      padding: 15px 40px;
+      border: 1px solid #ddd;
+    }
+    
+   .invoice-first-div{
+    display: flex;
+  
+    justify-content: space-between;
+   }
+   .logo-container p{
+    font-size: 25px;
+    font-weight: 600;
+   margin-top: 5px;
+   }
+  .invoice-logo{
+    width: 150px;
+   
+    overflow: hidden;
+    /* background-color: red; */
+  }
+  .invoice-logo img{
+    width: 100%;
+    object-fit: cover;
+  }
+  .date-container h3{
+    font-size: 55px;
+    color: #126262;
+    line-height: 43px;
+  }
+  .date-container p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .date-container p span{
+    font-weight: 600;
+  }
+  .invoice-address{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+  .invoice-address-left{
+    width: 283px;
+  }
+  .invoice-address-left p , .invoice-address-right p{
+    font-size: 16px;
+    margin: 3px 0;
+  }
+  .invoice-address-left p:last-child,  .invoice-address-right p:last-child{
+  
+    margin-top: 10px;
+  }
+  .invoice-address-right p:last-child{
+  
+    margin-top: 6px;
+  }
+  .invoice-address-left span ,.invoice-address-right span{
+    font-weight: 600;
+  }
+  
+  .invoice-address-right{
+    width: 277px;
+  }
+  table{
+    width: 100%;
+    margin: 50px 0 0;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  thead tr{
+    height: 55px;
+    background-color: #126262;
+    color: white;
+  }
+  thead th, tbody td{
+    padding: 10px 10px;
+  }
+  tbody td{
+    border-bottom: 1px solid black;
+  }
+  
+  .totalAmount-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 30px;
+  }
+  .totalAmount{
+    width: 290px;
+  }
+  .totalAmount p{
+    margin: 10px 0;
+    padding: 0 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .totalAmount p:last-child{
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #126262;
+  }
+  .thankyouNote-Container, .TermsAndCondition-Container{
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+  }
+  .TermsAndCondition-Container{
+    margin-top: 35px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .thankyouNote-Container p, .TermsAndCondition-Container h4{
+    font-size: 32px;
+    font-weight: 600;
+    color: #126262;
+  }
+  .TermsAndCondition-Container h4{
+    font-size: 25px;
+  }
+  .TermsAndCondition-Container p{
+    margin-top: 4px;
+    font-size: 12px;
+  }
+  .invoiceCopy{
+    border: 1px solid lightgray;
+    padding: 2px 3px;
+    width: fit-content;
+    font-size: 12px;
+    cursor: pointer;
+  }

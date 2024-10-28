@@ -1,0 +1,119 @@
+/* mainpage.css */
+
+.managersuplier {
+    padding: 20px 8px;
+    width: 100%;
+  }
+  
+  .managersuplier-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .managersuplier-heading h5 {
+    font-size: 24px;
+    color: #333; 
+  }
+  .managersuplier-heading input{
+    width: 250px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid lightgray;
+    outline: #007bff;
+    border-radius: 5px;
+  }
+  .managersuplier-heading input:focus{
+    border: 1px solid #007bff;
+  }
+  
+  .managersuplier-heading button {
+    padding: 10px 25px;
+    background-color: #007bff;
+    color: #fff; 
+   width: fit-content;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .managersuplier table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .managersuplier th,
+  .managersuplier td {
+    padding: 10px;
+    text-align: center;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+  }
+  .managersuplier th:first-child,
+  .managersuplier td:first-child{
+    border-left: none;
+  }
+  .managersuplier tbody tr:nth-child(2n), .managersuplier-pagination ul li:nth-child(2) {
+    background-color: #45be8a49;
+
+  }
+  .managersuplier tbody tr:nth-child(2n-1), .managersuplier-pagination ul li:first-child,   .managersuplier-pagination ul li:last-child {
+    background-color: #1ac27c75;
+
+  }
+ 
+  .managersuplier th {
+    background-color: #347AB8;
+    color: white; /* Adjust the background color as needed */
+  }
+
+
+  .managersuplier-table td svg{
+        font-size: 25px;
+        margin-left: 10px;
+  }
+  .managersuplier-table td svg:first-child{
+    color: #007bff;
+  }
+  .managersuplier-table td svg:last-child{
+    color: rgba(255, 0, 0, 0.641);
+  }
+  .managersuplier-pagination{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  .managersuplier-pagination ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  .managersuplier-pagination ul li{
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+  }
+  .purchase-form-inputs_container .custom-dropdown {
+    position: relative;
+  }
+  
+  .purchase-form-inputs_container .custom-dropdown select {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+.dueInvoice-edit{
+  color: #007bff !important;
+}
+
+  
+
+  
+

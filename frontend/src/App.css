@@ -1,0 +1,36 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #5932EA;
+    border-radius: 25px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  button{
+    background-color: #5932EA !important;
+  }
+  table thead th{
+    background-color: #5932EA !important;
+    color: white !important;
+  }
+
+  tbody tr:nth-child(2n), .managersuplier-pagination ul li:nth-child(2) {
+    background-color: #5a32ea5d !important;
+
+  }
+  tbody tr:nth-child(2n-1), .managersuplier-pagination ul li:first-child,   .managersuplier-pagination ul li:last-child {
+    background-color: #5a32ea21 !important;
+
+  }

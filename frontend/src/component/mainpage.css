@@ -1,0 +1,157 @@
+.mainPage{
+  padding: 20px ;
+  width: calc(100% - 18%);
+}
+.cards-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.dashboard-card{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #347AB8;
+  padding: 20px;
+}
+.dashboard-card-icon {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.333);
+  margin-right: 15px;
+}
+.dashboard-card-icon svg{
+  font-size: 25px;
+  color: white;
+}
+.dashboard-card-stats h6{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+
+}
+.dashboard-card-stats p{
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+  
+}
+.purple{
+  background-color: #8B67D3CC;
+}
+.green{
+  background-color: #45BE89CC;
+}
+.pink{
+  background-color: #F97171CC;
+}
+.dashboard-transcation {
+  margin-top: 20px;
+ 
+}
+.dashboard-transcation h5{
+  font-size: 24px;
+  color: #333333c1; 
+  padding: 10px 0;
+}
+.dashboard-table-container{
+  display: flex;
+ width: 100%;
+}
+
+
+
+.dashboard-table-container {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 15px;
+}
+.dashboard-table{
+  overflow: hidden;
+}
+  
+.dashboard-table-left{
+  flex: 0.5;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  height: 350px;
+}
+.dashboard-table-right {
+  flex: 0.5;
+  margin-left: 20px;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  height: 350px;
+}
+.dashboard-table-right h5,.dashboard-table-left h5{
+  height: 15%;
+}
+.dashboard-table{
+  margin-top: 40px;
+}
+
+.dashboard-table table {
+
+  width: 100%;
+  border-collapse: collapse;
+}
+.dashboard-table thead th{
+  border-bottom: 1px solid lightgrey;
+  background-color: white;
+  color: #2B2B2B;
+  font-size: 18px;
+  font-weight: 600;
+}
+.dashboard-table tbody td{
+  font-weight: 500;
+  font-size: 16px;
+}
+.dashboard-table tbody td p{
+  padding: 8px;
+}
+.dashboard-table th,
+.dashboard-table td {
+  text-align: center;
+  padding: 5px;
+}
+.dashboard-table th:first-child,
+.dashboard-table td:first-child{
+  border-left: none;
+}
+
+.dashboard-table-right h5{
+  height: 15%;
+}
+
+.apexcharts-zoom-icon {
+  display: none !important;
+}
+.apexcharts-pan-icon {
+  display: none !important;
+}
+.dashboard-order{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  justify-content: space-between;
+
+}
+.dashboard-order h5{
+ color:  #000000;
+ font-size: 20px;
+}
+.dashboard-order a{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #03022980;
+  text-decoration: none;
+  font-size: 14px;
+}

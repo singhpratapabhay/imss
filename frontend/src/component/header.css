@@ -1,0 +1,132 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 45px ;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0 rgb(141, 140, 140);
+}
+.header-profile{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    z-index: 20;
+    padding: 0 45px ;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0 rgb(141, 140, 140);
+}
+.logo{
+    height: 100%;
+    margin-bottom: 3px;
+    
+}
+
+.logo img{
+ height: 100%;
+
+}
+.prof-sett{
+    display: flex;
+    align-items: center;
+}
+.setting-time{
+    margin-right: 10px;
+    background-color: #FF4560;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+.setting-time p{
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+
+.setting-icon{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.setting-icon svg{
+    font-size: 30px;
+}
+.setting-icon img{
+    width: 100%;
+   object-fit: cover;
+}
+.setting-icon:hover{
+    background-color: lightgray;
+}
+.setting-icon:hover p{
+    background-color: lightgray;
+}
+.setting-icon p{
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    color: red;
+    font-size: 12px;
+    background: white;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+/* Add these styles to your CSS file or style block */
+
+.loginBtn,
+.logoutBtn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.loginBtn {
+  background-color: #4caf50; /* Green color for login button */
+  color: white;
+}
+
+.logoutBtn {
+  background-color: #f44336; /* Red color for logout button */
+  color: white;
+}
+
+/* Hover effect */
+.loginBtn:hover,
+.logoutBtn:hover {
+  background-color: #45a049; /* Darker green on hover for login button */
+}
+
+.logoutBtn:hover {
+  background-color: #d32f2f; /* Darker red on hover for logout button */
+}

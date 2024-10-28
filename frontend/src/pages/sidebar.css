@@ -1,0 +1,231 @@
+.sai{
+  width: 24%;
+  height: 90vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+  .sidebar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .toggle-tab {
+    display: flex;
+    justify-content: center;
+    padding: .5rem;
+  }
+  
+  .toggle_bar {
+    margin-top: .5rem;
+    display: flex;
+    position: sticky;
+    padding: .5rem;
+    top: .3%;
+    background-color: white;
+    z-index: 10;
+    height: 30px;
+    width: 29px;
+    filter: drop-shadow(-3px 3px 5px rgba(189, 187, 187, 0.711));
+    border-radius: 50%;
+    /* box-shadow: 0 0 3px 2px rgb(210, 207, 207) inset; */
+  }
+  
+  .sidebarCompress {
+    width: 100%;
+    /* min-height: 650px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  
+  }
+  
+  .sidebarCompress p {
+    display: none;
+  }
+  
+  .sidebarCompress .sidebar-logo {
+    width: 58px;
+  
+  }
+  
+  .sidebarCompress .sidebar-logo img {
+    width: 100%;
+  }
+  
+  .sidebarCompress p {
+    display: none;
+  }
+  
+  .sidebarCompress .side-links {
+    width: 100%;
+  }
+  
+  .sidebarCompress .side-support {
+    width: 75px;
+  }
+  
+  .sidebarCompress .sideIcons {
+    margin-right: 0;
+    font-size: 18px;
+  }
+  .sidebarCompress .drop-down-icon {
+    position: absolute;
+    margin-left: 38px;
+    font-size: 15px;
+  }
+  .side-links {
+    margin-top: 12px;
+    width: 100%;
+  }
+  
+  .sidebarCompress .side-Navlinks {
+    justify-content: center;
+  }
+  
+  .sidebarCompress .side-support {
+    justify-content: center;
+  }
+  
+  .side-Navlinks {
+    display: flex;
+    width: 97%;
+    height: 52px;
+    border-radius: 0px 10px 10px 0px;
+    align-items: center;
+    padding: 20px 12px;
+    transition: 0.3s;
+    margin: 2px 0;
+    position: relative;
+    list-style: none;
+  }
+  
+  .active {
+    background-color: #5932EA;
+    color: white;
+    height: 52px;
+  }
+  
+  .active .sideIcons {
+    color: white;
+  }
+  
+  .side-Navlinks p,
+  .side-support p {
+    color: #53545C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .side-Navlinks:hover p {
+    color: #5932EA;
+  }
+  
+  .side-Navlinks:hover .sideIcons {
+    color: #5932EA;
+  }
+  
+  .drop-down-icon {
+    font-size: 22px;
+  }
+  
+  .side-Navlinks:hover .drop-down-icon {
+    color: #5932EA;
+  }
+  
+  .active:hover .sideIcons {
+    color: white;
+  }
+  
+  .active p {
+    color: white;
+  }
+  
+  .active:hover p {
+    color: white;
+  }
+  
+  
+  
+  .down {
+    transform: rotate(180deg);
+  }
+  
+
+  .sub-sidebar__nav-links:last-child{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.234);
+    box-shadow: inset(2px 2px 8px 0 black);
+  }
+  
+  .sideIcons {
+    font-size: 24px;
+    margin-right: 16px;
+    color: #53545C;
+  }
+  
+  .side-support {
+    display: flex;
+    align-items: center;
+    height: 52px;
+    border-radius: 12px;
+    width: 233px;
+    padding: 20px 16px;
+    transition: 0.5s;
+    margin: 20px 0;
+    border-radius: 16px;
+    background: rgba(94, 99, 102, 0.10);
+  }
+  
+  .drop-down-menu {
+    list-style: none;
+  }
+  
+  .logout {
+    display: flex;
+    align-items: center;
+    color: #CC5F5F;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.3s;
+    /* width: 100%; */
+    margin-top: 5px;
+    padding: 0 23px;
+  }
+  
+  .logout .sideIcons {
+    color: #CC5F5F;
+    margin-right: 10px;
+    transition: 0.3s;
+  }
+  
+  .drop-down-icon {
+    margin-left: 10px;
+  }
+  
+  .logout:hover .sideIcons {
+    color: red;
+  }
+  
+  .logout:hover p {
+    color: red;
+  }
+  
+  /* .sidebar::-webkit-scrollbar-track,  .sidebarCompress::-webkit-scrollbar-track
+  {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+  }
+  
+  .sidebar::-webkit-scrollbar, .sidebarCompress::-webkit-scrollbar
+  {
+    width: 0px;
+  } */
